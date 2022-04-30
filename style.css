@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h2{
+    color: hsl(223, 47%, 23%);
+    margin-top: 20px;
+}
+
+/* Container */
+
+.container{
+    max-width: 360px;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.card{
+    margin-top: 60px ;
+    background-color: blue;
+    border-radius: 18px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.card-text{
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    padding: 15px 40px;
+    line-height: 1.5;
+}
+
+/* Price card */
+
+.price-card{
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px 0;
+    display: flex;
+    margin: 0 35px;
+    font-size: 13px;
+}
+
+.price-image{
+    padding: 7px 0 7px 15px;
+    width: 14%;
+}
+
+.price-text{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.price-change{
+    margin: auto 20px auto 60px;
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price-value{
+    color: hsl(224, 23%, 55%);
+}
+
+.price-button{
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 25px;
+    width: 80%;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+.price-button:hover{
+    cursor: pointer;
+}
+
+
+.price-cancel{
+    text-decoration: none;
+    font-size: 12px;
+    color: hsl(223, 47%, 23%);
+    margin: 5px;
+}
