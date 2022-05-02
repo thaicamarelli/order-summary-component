@@ -5,7 +5,8 @@
 
 body{
     text-align: center;
-    background-color: hsl(225, 100%, 94%);
+    background:url(./images/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 98%);
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -18,7 +19,7 @@ h2{
 
 .container{
     max-width: 360px;
-    max-height: 90vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     margin: 20px auto;
@@ -30,6 +31,7 @@ h2{
     border-radius: 18px;
     align-items: center;
     background-color: #fff;
+    padding: 0 0 35px 0;
 }
 
 .card-image{
@@ -73,6 +75,10 @@ h2{
     font-weight: bold;
 }
 
+.price-change:hover{
+    color: hsl(245, 55%, 65%);
+}
+
 .price-value{
     color: hsl(224, 23%, 55%);
 }
@@ -91,12 +97,18 @@ h2{
 
 .price-button:hover{
     cursor: pointer;
+    background-color: hsl(245, 55%, 65%);
 }
 
 
 .price-cancel{
     text-decoration: none;
     font-size: 12px;
-    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
     margin: 5px;
+}
+
+.price-cancel:hover{
+    color: hsl(223, 47%, 23%);
 }
